@@ -1,0 +1,12 @@
+# Addons for Oracle APEX installation
+
+Put in this addons/patch latest Oracle Apex PatchSet (if available).
+Download from My Oracle Support channel.
+
+# Oracle APEX 24.1 Known Issues
+
+## APEX 24.1 was released on June 17, 2024.
+
+Please review the Release Notes for significant issues known at time of release. Any new significant issues will be added here. This page was last updated on October 7, 2024.
+
+https://www.oracle.com/tools/downloads/apex-downloads/apex-241-known-issues/
