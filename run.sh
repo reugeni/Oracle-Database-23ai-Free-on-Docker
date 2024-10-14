@@ -29,8 +29,11 @@ $DOCKER container run \
   -d \
   --name "$ORACLE_CONTAINER_NAME" \
   -p "$ORACLE_LISTENER_PORT":1521 \
+  -p "$TOMCAT_PORT":8080 \
   -e ORACLE_PWD="$ORACLE_PWD" \
-  container-registry.oracle.com/database/free:23.4.0.0
+  -v "$ORACLE_ORADATA":/opt/oracle/oradata \
+  container-registry.oracle.com/database/free:latest
+#  container-registry.oracle.com/database/free:23.4.0.0
 
 echo -n "Waiting for $ORACLE_CONTAINER_NAME to get healthy ..."
 while true; do
