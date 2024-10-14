@@ -1,6 +1,6 @@
 # Addons for Oracle APEX installation
 
-Put Oracle Apex PatchSet zip files download from My Oracle support channel (if available) into addons/patch folder, then use install-apex-patch to apply it.
+Put Oracle Apex PatchSet zip files downloaded from My Oracle support channel (if available) into addons/patch folder, then use install-apex-patch to apply it.
 
 # Oracle APEX 24.1 Known Issues
 
